@@ -212,7 +212,7 @@ Windows:
 python -m venv venv
 venv\Scripts\activate
 
-Linux / macOS:
+Linux / macOS: 
 python -m venv venv
 source venv/bin/activate
 
