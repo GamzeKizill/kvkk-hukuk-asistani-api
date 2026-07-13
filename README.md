@@ -35,6 +35,7 @@ Backend ve mobil uygulama birlikte çalışarak kullanıcılara yapay zekâ dest
 
 🏗️ Sistem Mimarisi
 
+```text
 ┌──────────────────────┐
 │   Android Uygulama   │
 └──────────┬───────────┘
@@ -83,7 +84,7 @@ Backend ve mobil uygulama birlikte çalışarak kullanıcılara yapay zekâ dest
 ┌──────────────────────┐
 │ Android Uygulama     │
 └──────────────────────┘
-
+```
 
 🧠 Kullanılan Teknolojiler
 
