@@ -35,35 +35,54 @@ Backend ve mobil uygulama birlikte çalışarak kullanıcılara yapay zekâ dest
 
 🏗️ Sistem Mimarisi
 
-Android Uygulaması
-        │
-        │ HTTPS POST
-        ▼
-FastAPI API
-        │
-        ▼
-Kullanıcı Sorusu
-        │
-        ▼
-Embedding Oluşturma
-        │
-        ▼
-ChromaDB Similarity Search
-        │
-        ▼
-İlgili KVKK Dokümanları
-        │
-        ▼
-Prompt Oluşturma
-        │
-        ▼
-Llama 3.3 70B (Groq)
-        │
-        ▼
-Bağlam Destekli Hukuki Yanıt
-        │
-        ▼
-Android Uygulaması
+┌──────────────────────┐
+│   Android Uygulama   │
+└──────────┬───────────┘
+           │ HTTPS POST
+           ▼
+┌──────────────────────┐
+│     FastAPI API      │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Kullanıcı Sorusu     │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Embedding Oluşturma  │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ ChromaDB Araması     │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ KVKK Dokümanları     │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Prompt Oluşturma     │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Llama 3.3 70B (Groq) │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Hukuki Yanıt         │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Android Uygulama     │
+└──────────────────────┘
 
 
 🧠 Kullanılan Teknolojiler
